@@ -6,8 +6,8 @@ public class Array
 	{
 		System.out.print("\n" + "Concatenate two Array's:" + "\n");
 
-                String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
-                String[] y = {"golf","hotel"};
+		String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+		String[] y = {"golf","hotel"};
 
 		Array.concat(x,y);
 		

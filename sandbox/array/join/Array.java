@@ -6,8 +6,8 @@ public class Array
 	{
 		System.out.print("\n" + "Join Array:" + "\n");
 
-                String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
-                String y = "#";
+		String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+		String y = "#";
 
 		Array.join(x,y);
 
@@ -17,11 +17,11 @@ public class Array
 	{
 		StringBuffer buffer = new StringBuffer();
 
-                for(String item : items)
-                {
-        		buffer.append(item);
-        		buffer.append(delimiter);
-                }
+		for(String item : items)
+		{
+			buffer.append(item);
+			buffer.append(delimiter);
+		}
 
 		System.out.print(buffer.toString() + "\n");
 	}

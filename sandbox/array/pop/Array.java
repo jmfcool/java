@@ -4,11 +4,11 @@ public class Array
 {
 	public static void main(String[] args)
 	{
-                System.out.print("\n" + "Pop last item off of Array:" + "\n");
+		System.out.print("\n" + "Pop last item off of Array:" + "\n");
 
 		String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 
-                Array.pop(x);
+		Array.pop(x);
 
 		System.out.print("\n");
 	}
@@ -17,8 +17,8 @@ public class Array
 		String[] list = Arrays.copyOf(items,items.length-1);	
 
 		for(String item : list)
-                {
-                        System.out.print("item = " + item + "\n");
-                }
+		{
+			System.out.print("item = " + item + "\n");
+		}
 	}
 }
